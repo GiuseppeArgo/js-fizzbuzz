@@ -1,11 +1,11 @@
 const rowElem = document.querySelector(".row"); //object | null
 console.log(rowElem);
 
-
-
 for (let i = 1; i <= 100; i++) {
     console.log(i);
     const boxElem = document.createElement("div");
+    console.log(boxElem);
+    
     if ( i % 15 === 0) {
         console.log("fizzbuzz");
         bgClass = "fizzbuzz";
@@ -29,7 +29,6 @@ for (let i = 1; i <= 100; i++) {
     
     boxElem.classList.add("box");
     boxElem.classList.add(bgClass);
-    console.log(boxElem);
     rowElem.append(boxElem);
 }   
 
