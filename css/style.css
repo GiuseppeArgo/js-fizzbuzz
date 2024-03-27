@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkblue;
+}
+
+.container {
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.fizz {
+    background-color: lightblue;
+}
+
+.buzz {
+    background-color: chartreuse;
+}
+
+.fizzbuzz {
+    background-color: yellow;
+}
+
+.normal-number {
+    background-color: darkgrey;
+}
