@@ -20,9 +20,9 @@ body {
 }
 
 .box {
-    width: 100px;
+    width: 8%;
     height: 100px;
-    margin-bottom: 1rem;
+    margin: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
